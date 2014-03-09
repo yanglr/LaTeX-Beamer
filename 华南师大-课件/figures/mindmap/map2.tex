@@ -1,0 +1,60 @@
+\documentclass{article}
+
+% CJK packages
+\usepackage{xeCJK}
+\setCJKmainfont{SimHei}
+
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees}
+
+%\usepackage[xetex,active,floats]{preview}
+
+%\setlength\PreviewBorder{0mm}
+%\PreviewEnvironment{tikzpicture}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+
+  \node [shift={(10 cm,-7cm)}]  at (current page.north west)
+  {%
+        \begin{tikzpicture}[remember picture, overlay]
+  
+  \path[mindmap,concept color=black!20,text=white]
+    node[concept] {人工神经网络漫谈}
+    [clockwise from=0]
+    child[concept color=green!50!black] {
+      node[concept] {1. 什么是ANN（What）}
+      [clockwise from=90]
+      child[concept color=orange] { node[concept] {概念} }
+      child[concept color=orange] { node[concept] {特点} }
+      child[concept color=orange] { node[concept] {功能} }
+      child[concept color=orange] { node[concept] {应用领域} }
+    }  
+    child[concept color=black!20] {
+      node[concept] {2. 如何构造ANN（How）}
+      [clockwise from=-30]
+      child[concept color=black!20] { node[concept] {三要素} }
+    }
+    child[concept color=black!20] { node[concept] {3. M-P模型} }
+    child[concept color=black!20] { node[concept] {4. 感知器\\ \& \\BP网络}
+      [clockwise from=-135]
+      child[concept color=black!20] { node[concept] {BP网络} }
+      child[concept color=black!20] { node[concept] {ANN发展史} }
+      child[concept color=black!20] { node[concept] {感知器} }
+    }
+    child[concept color=black!20] { node[concept] {5. 其他网络综述} }
+    child[concept color=black!20] { node[concept] {6. 实例（Case）} };
+  \end{tikzpicture}
+  
+};
+
+\end{tikzpicture}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

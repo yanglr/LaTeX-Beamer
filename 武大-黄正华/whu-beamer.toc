@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.14pt}
+\beamer@sectionintoc {2}{什么是粗糙集}{3}{0}{1}
+\beamer@sectionintoc {3}{粗糙集应用举例}{12}{0}{2}
+\beamer@sectionintoc {4}{粗糙集软件}{18}{0}{3}
+\beamer@sectionintoc {5}{变精度粗糙集}{19}{0}{4}
+\beamer@sectionintoc {6}{参考文献}{28}{0}{5}

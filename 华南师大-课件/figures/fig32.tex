@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{tabularx,multirow,multicol,keystroke,subfigure}
+
+
+% CJK packages
+\usepackage{xeCJK}
+\setCJKmainfont{SimHei}
+
+\usepackage{tikz}
+\usepackage[xelatex,active,tightpage]{preview}
+\setlength\PreviewBorder{0mm}
+\PreviewEnvironment{tikzpicture}
+
+\begin{document}
+
+\begin{tikzpicture}
+  \draw [->,>=stealth] (-1,0)--(3,0)node[label=below:$x_2$]{};
+  \draw [->,>=stealth] (0,-1)--(0,2)node[label=left:$x_1$]{};
+  \filldraw [draw=blue, fill=white] (0,0) circle (1pt);
+  \filldraw [draw=blue, fill=white] (0,1) circle (1pt);
+  \filldraw [draw=blue, fill=white] (1,0) circle (1pt);
+  \fill [blue] (1,1) circle (1pt);
+  \draw [red] (-0.3,1.5) -- (2,-0.5);
+\end{tikzpicture}
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

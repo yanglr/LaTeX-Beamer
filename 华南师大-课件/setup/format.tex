@@ -1,0 +1,58 @@
+﻿
+% Standard packages
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{tabularx,multirow,multicol,keystroke,subfigure,longtable}
+
+% 定制代码输出
+\definecolor{lstbgcolor}{rgb}{0.9,0.9,0.9}
+\usepackage{listings} %代码样式
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+\lstset{
+escapeinside=`',
+frameround=ftft,
+language=Pascal,
+breaklines=true,
+keywordstyle=\color{blue!70},
+commentstyle=\color{red!50!green!50!blue!50},
+frame=shadowbox,
+backgroundcolor=\color{yellow!20},
+rulesepcolor=\color{red!20!green!20!blue!20}
+}
+
+% CJK packages
+\usepackage{xeCJK}
+%\setCJKmainfont{KaiTi}
+\setCJKmainfont{Adobe Heiti Std}
+
+% Graphix
+\usepackage{graphicx}
+
+% Setup TikZ
+\usepackage{tikz}
+
+
+
+
+% 定义罗马数字
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+% 定义破折号
+\newcommand{\pozhehao}{\kern0.3ex\rule[0.8ex]{2em}{0.1ex}\kern0.3ex}
+
+% 中文图表
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: "../ann.tex"
+%%% End:
+

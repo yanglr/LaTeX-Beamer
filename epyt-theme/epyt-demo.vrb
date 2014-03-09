@@ -1,0 +1,15 @@
+\frametitle{使用说明}
+\transblindsvertical
+\begin{itemize}
+\item 建议在演示文稿中使用大号的字体，例如：
+\begin{verbatim}
+\documentclass[14pt]{beamer}
+\usebeamertheme{epyt}
+\end{verbatim}\pause
+\item 如果要使用中文，可以用 \verb ctex 宏包，例如：
+\begin{verbatim}
+\documentclass[14pt]{beamer}
+\usebeamertheme{epyt}
+\usepacakge[UTF8,noindent]{ctex}
+\end{verbatim}
+\end{itemize}

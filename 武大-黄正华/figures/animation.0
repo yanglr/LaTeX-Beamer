@@ -1,0 +1,20 @@
+%!PS
+%%BoundingBox: 27 580 525 809 
+%%Creator: MetaPost
+%%CreationDate: 2005.05.26:2102
+%%Pages: 1
+%%EndProlog
+%%Page: 1 1
+ 0 0 dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath 28.34644 807.87341 moveto 0 0 rlineto stroke
+newpath 524.40906 581.10193 moveto 0 0 rlineto stroke
+ 0 1.3 dtransform truncate idtransform setlinewidth pop
+newpath 28.34644 807.87341 moveto
+311.81079 807.87341 lineto
+311.81079 581.10193 lineto
+28.34644 581.10193 lineto
+28.34644 807.87341 lineto
+ closepath stroke
+showpage
+%%EOF
